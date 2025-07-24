@@ -27,3 +27,8 @@ node_modules/
 dist/
 build/
 .DS_Store
+node_modules/
+.env
+dist/
+build/
+.DS_Store
