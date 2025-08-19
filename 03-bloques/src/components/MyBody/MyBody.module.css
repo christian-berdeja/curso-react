@@ -1,0 +1,45 @@
+#body{
+    display: flex;
+    align-items: center;
+}
+.mybody{
+    width: 1050px;
+    height: 360px;
+    background-color: chartreuse;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* display: flex;
+    justify-content: start; */
+}
+
+.sidenav {
+    height: 380px;
+    width: 200px;
+    background-color: #66ccff;
+    margin: 10px;
+    float: right;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: end; */
+    position: absolute;
+    top: 125px; left: 1100px;
+}
+
+#bodySubContent{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.SubContentNav{
+    width: 500px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    align-items: flex-end;
+    z-index: 2;
+}
